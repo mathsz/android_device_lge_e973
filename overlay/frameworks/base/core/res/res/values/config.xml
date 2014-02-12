@@ -20,4 +20,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
        <!-- Default color for notification LED is RED. -->
     <color name="config_defaultNotificationColor">#ff0000</color>
+    
+    <!-- Default value for led color when battery is low on charge: <= 14% -->
+    <integer name="config_notificationsBatteryLowARGB">0xFFFF0000</integer>
+
+    <!-- Default value for led color when battery is medium charged: 15-99% -->
+    <integer name="config_notificationsBatteryMediumARGB">0xFFFF0000</integer>
+    
 </resources>
