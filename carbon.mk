@@ -9,7 +9,7 @@ TARGET_SCREEN_WIDTH := 768
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_phone.mk)
+$(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 # Enhanced NFC
 # $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
